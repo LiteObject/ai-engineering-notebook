@@ -4,6 +4,8 @@
 
 Not all AI algorithms are created equal. The key is matching your problem type with the right approach. This section helps you navigate the algorithm landscape and make informed decisions.
 
+> 📖 **New to AI algorithms?** Check out our [**Algorithms Explained Simply**](algorithms-explained-simply.md) guide for easy-to-understand explanations of all the algorithms mentioned in this section.
+
 ### Understanding Problem Types
 
 #### Classification Problems

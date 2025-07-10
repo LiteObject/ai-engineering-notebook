@@ -21,6 +21,10 @@ The foundation of any successful AI project starts with proper planning and desi
 | **6. User Experience & Human-AI Interaction** | [`06-user-experience.md`](06-user-experience.md) | Create intuitive, trustworthy AI interfaces that users love |
 | **7. Cost & Investment Planning** | [`07-cost-investment.md`](07-cost-investment.md) | Understand AI project economics, ROI calculation, and budget planning |
 
+### 🧠 Supplementary Guides
+
+**[`algorithms-explained-simply.md`](algorithms-explained-simply.md)** - A non-technical guide explaining AI algorithms in simple language that anyone can understand. Perfect for sharing with stakeholders or team members who are new to AI.
+
 ### Interactive Notebook
 
 **[`AI-Engineering-Notebook.ipynb`](AI-Engineering-Notebook.ipynb)** - The main interactive Jupyter notebook that combines all sections with executable code examples, templates, and practical exercises.

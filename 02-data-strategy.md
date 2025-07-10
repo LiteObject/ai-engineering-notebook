@@ -186,6 +186,8 @@ Quality Requirements:
 
 ### Tools and Technologies
 
+> 💡 **Understanding AI Algorithms?** When planning your data strategy, it helps to understand what algorithms you might use. Check out our [**Algorithms Explained Simply**](algorithms-explained-simply.md) guide to understand how different algorithms work with different types of data.
+
 #### Data Storage
 - **Relational databases**: PostgreSQL, MySQL
 - **NoSQL databases**: MongoDB, Cassandra
