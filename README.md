@@ -127,12 +127,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Built with insights from real-world AI project experiences
 - Thanks to all contributors and reviewers
 
-## 📞 Support
-
-- **Issues**: Report bugs or request features via GitHub Issues
-- **Discussions**: Join conversations in GitHub Discussions
-- **Community**: Connect with other learners and practitioners
-
 ---
 
 *Ready to start your AI engineering journey? Begin with [Section 1: Problem Definition & Objectives](01-problem-definition.md) or dive into the [Interactive Notebook](AI-Engineering-Notebook.ipynb)!*
