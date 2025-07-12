@@ -11,77 +11,67 @@ Think of AI algorithms as different types of "recipes" for teaching computers to
 *These help computers put things into categories*
 
 ### Naive Bayes
-**What it's like**: A spam filter that looks at individual words
-
-**How it works**: Imagine you're trying to decide if an email is spam. Naive Bayes looks at each word separately and says "emails with the word 'FREE' are usually spam, emails with the word 'meeting' are usually not spam." Then it adds up all the evidence to make a final decision.
-
-**Real-world example**: Email spam detection, medical diagnosis
-
-**Pros**: Fast, works well with small amounts of data, easy to understand
-
-**Cons**: Assumes all features are independent (which isn't always true in real life)
-
-**When to use**: When you have text data, limited training examples, or need quick results
+- **What it's like**: A spam filter that looks at individual words
+- **How it works**: Imagine you're trying to decide if an email is spam. Naive Bayes looks at each word separately and says "emails with the word 'FREE' are usually spam, emails with the word 'meeting' are usually not spam." Then it adds up all the evidence to make a final decision.
+- **Real-world example**: Email spam detection, medical diagnosis
+- **Pros**: Fast, works well with small amounts of data, easy to understand
+- **Cons**: Assumes all features are independent (which isn't always true in real life)
+- **When to use**: When you have text data, limited training examples, or need quick results
 
 ---
 
 ### Logistic Regression
-**What it's like**: A sophisticated yes/no decision maker
-
-**How it works**: Imagine you're a loan officer deciding whether to approve someone for credit. You look at their income, credit score, and debt, then combine all these factors using a mathematical formula to get a probability (like "75% chance this person will repay the loan").
-
-**Real-world example**: Credit approval, medical diagnosis (will treatment work?), marketing (will customer buy?)
-
-**Pros**: Gives you probabilities, not just yes/no answers; easy to explain why a decision was made
-
-**Cons**: Only works well when the relationship between inputs and outputs is relatively simple
-
-**When to use**: When you need to explain decisions, have mixed types of data, or want probability scores
+- **What it's like**: A sophisticated yes/no decision maker
+- **How it works**: Imagine you're a loan officer deciding whether to approve someone for credit. You look at their income, credit score, and debt, then combine all these factors using a mathematical formula to get a probability (like "75% chance this person will repay the loan").
+- **Real-world example**: Credit approval, medical diagnosis (will treatment work?), marketing (will customer buy?)
+- **Pros**: Gives you probabilities, not just yes/no answers; easy to explain why a decision was made
+- **Cons**: Only works well when the relationship between inputs and outputs is relatively simple
+- **When to use**: When you need to explain decisions, have mixed types of data, or want probability scores
 
 ---
 
 ### Random Forest
-**What it's like**: A committee of experts voting on a decision
+- **What it's like**: A committee of experts voting on a decision
 
-**How it works**: Imagine you're diagnosing a patient. Instead of asking just one doctor, you ask 100 doctors to each look at different aspects of the patient's symptoms and history. Then you take a majority vote of all their opinions. Random Forest works similarly - it creates many "decision trees" (simple rule-based systems) and combines their predictions.
+- **How it works**: Imagine you're diagnosing a patient. Instead of asking just one doctor, you ask 100 doctors to each look at different aspects of the patient's symptoms and history. Then you take a majority vote of all their opinions. Random Forest works similarly - it creates many "decision trees" (simple rule-based systems) and combines their predictions.
 
-**Real-world example**: Customer churn prediction, fraud detection, medical diagnosis
+- **Real-world example**: Customer churn prediction, fraud detection, medical diagnosis
 
-**Pros**: Very robust, handles different types of data well, tells you which factors are most important
+- **Pros**: Very robust, handles different types of data well, tells you which factors are most important
 
-**Cons**: Harder to explain exactly why a specific decision was made
+- **Cons**: Harder to explain exactly why a specific decision was made
 
-**When to use**: When you want high accuracy, have mixed data types (numbers and categories), or need to know what factors matter most
+- **When to use**: When you want high accuracy, have mixed data types (numbers and categories), or need to know what factors matter most
 
 ---
 
 ### Support Vector Machines (SVM)
-**What it's like**: Drawing the best possible line to separate two groups
+- **What it's like**: Drawing the best possible line to separate two groups
 
-**How it works**: Imagine you have red and blue marbles scattered on a table, and you want to draw a line that best separates them. SVM finds the line that has the maximum distance to the nearest marbles on both sides. It's like finding the "safest" boundary between two groups.
+- **How it works**: Imagine you have red and blue marbles scattered on a table, and you want to draw a line that best separates them. SVM finds the line that has the maximum distance to the nearest marbles on both sides. It's like finding the "safest" boundary between two groups.
 
-**Real-world example**: Text classification, image recognition, gene classification
+- **Real-world example**: Text classification, image recognition, gene classification
 
-**Pros**: Works well with high-dimensional data (lots of features), memory efficient
+- **Pros**: Works well with high-dimensional data (lots of features), memory efficient
 
-**Cons**: Can be slow on large datasets, hard to interpret
+- **Cons**: Can be slow on large datasets, hard to interpret
 
-**When to use**: When you have lots of features, moderate amounts of data, or need high accuracy
+- **When to use**: When you have lots of features, moderate amounts of data, or need high accuracy
 
 ---
 
 ### Neural Networks
-**What it's like**: A simplified model of how the brain works
+- **What it's like**: A simplified model of how the brain works
 
-**How it works**: Think of neurons in your brain - they receive signals from other neurons, process them, and send signals forward. Artificial neural networks work similarly, with layers of artificial "neurons" that each take inputs, apply some math, and pass results to the next layer. With enough layers and neurons, they can learn very complex patterns.
+- **How it works**: Think of neurons in your brain - they receive signals from other neurons, process them, and send signals forward. Artificial neural networks work similarly, with layers of artificial "neurons" that each take inputs, apply some math, and pass results to the next layer. With enough layers and neurons, they can learn very complex patterns.
 
-**Real-world example**: Image recognition, speech recognition, language translation
+- **Real-world example**: Image recognition, speech recognition, language translation
 
-**Pros**: Can learn very complex patterns, excellent for images/audio/text
+- **Pros**: Can learn very complex patterns, excellent for images/audio/text
 
-**Cons**: Needs lots of data, takes long to train, hard to understand why they make decisions
+- **Cons**: Needs lots of data, takes long to train, hard to understand why they make decisions
 
-**When to use**: When you have lots of data, complex patterns, and computational resources
+- **When to use**: When you have lots of data, complex patterns, and computational resources
 
 ---
 
@@ -89,47 +79,47 @@ Think of AI algorithms as different types of "recipes" for teaching computers to
 *These predict numbers instead of categories*
 
 ### Linear Regression
-**What it's like**: Drawing the best straight line through data points
+- **What it's like**: Drawing the best straight line through data points
 
-**How it works**: Imagine you're plotting house prices vs. house size on a graph. Linear regression finds the straight line that best fits through all the data points. You can then use this line to predict the price of a new house based on its size.
+- **How it works**: Imagine you're plotting house prices vs. house size on a graph. Linear regression finds the straight line that best fits through all the data points. You can then use this line to predict the price of a new house based on its size.
 
-**Real-world example**: Predicting house prices, sales forecasting, estimating delivery times
+- **Real-world example**: Predicting house prices, sales forecasting, estimating delivery times
 
-**Pros**: Simple to understand and explain, fast, works well when relationships are linear
+- **Pros**: Simple to understand and explain, fast, works well when relationships are linear
 
-**Cons**: Only captures straight-line relationships
+- **Cons**: Only captures straight-line relationships
 
-**When to use**: When you believe there's a simple, direct relationship between inputs and outputs
+- **When to use**: When you believe there's a simple, direct relationship between inputs and outputs
 
 ---
 
 ### Decision Trees
-**What it's like**: A series of yes/no questions leading to a decision
+- **What it's like**: A series of yes/no questions leading to a decision
 
-**How it works**: Like a flowchart you might use to troubleshoot a problem. "Is the income above $50,000? If yes, go left. If no, go right. Is the credit score above 700? If yes, approve loan. If no, check employment history..." The algorithm automatically figures out the best questions to ask and in what order.
+- **How it works**: Like a flowchart you might use to troubleshoot a problem. "Is the income above $50,000? If yes, go left. If no, go right. Is the credit score above 700? If yes, approve loan. If no, check employment history..." The algorithm automatically figures out the best questions to ask and in what order.
 
-**Real-world example**: Medical diagnosis trees, customer service chatbots, risk assessment
+- **Real-world example**: Medical diagnosis trees, customer service chatbots, risk assessment
 
-**Pros**: Very easy to understand and explain, handles different data types
+- **Pros**: Very easy to understand and explain, handles different data types
 
-**Cons**: Can become overly complex and make poor predictions on new data
+- **Cons**: Can become overly complex and make poor predictions on new data
 
-**When to use**: When you need to explain decisions clearly, have mixed data types, or want rule-based logic
+- **When to use**: When you need to explain decisions clearly, have mixed data types, or want rule-based logic
 
 ---
 
 ### Gradient Boosting (XGBoost, LightGBM)
-**What it's like**: Learning from mistakes iteratively
+- **What it's like**: Learning from mistakes iteratively
 
-**How it works**: Imagine you're learning to hit a target with arrows. First, you take a shot and see where you missed. Then you adjust your aim to correct for that mistake and shoot again. You keep adjusting based on your previous errors until you're hitting the target consistently. Gradient boosting works similarly - it builds models sequentially, with each new model trying to fix the mistakes of the previous ones.
+- **How it works**: Imagine you're learning to hit a target with arrows. First, you take a shot and see where you missed. Then you adjust your aim to correct for that mistake and shoot again. You keep adjusting based on your previous errors until you're hitting the target consistently. Gradient boosting works similarly - it builds models sequentially, with each new model trying to fix the mistakes of the previous ones.
 
-**Real-world example**: Kaggle competitions, click prediction, financial modeling
+- **Real-world example**: Kaggle competitions, click prediction, financial modeling
 
-**Pros**: Often achieves the highest accuracy on structured data
+- **Pros**: Often achieves the highest accuracy on structured data
 
-**Cons**: Can be complex to tune, prone to overfitting, slower to train
+- **Cons**: Can be complex to tune, prone to overfitting, slower to train
 
-**When to use**: When accuracy is paramount and you have time to tune parameters carefully
+- **When to use**: When accuracy is paramount and you have time to tune parameters carefully
 
 ---
 
