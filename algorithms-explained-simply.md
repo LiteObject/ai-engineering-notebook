@@ -223,11 +223,11 @@ Think of AI algorithms as different types of "recipes" for teaching computers to
 
 ### General Recommendations:
 
-**For beginners**: Start with Linear Regression (numbers) or Logistic Regression (categories)
-**For most business problems**: Try Random Forest first
-**For text and images**: Consider Neural Networks or pre-trained models
-**For maximum accuracy**: Try Gradient Boosting or Neural Networks
-**For explainable AI**: Use Decision Trees or Linear models
+- **For beginners**: Start with Linear Regression (numbers) or Logistic Regression (categories)
+- **For most business problems**: Try Random Forest first
+- **For text and images**: Consider Neural Networks or pre-trained models
+- **For maximum accuracy**: Try Gradient Boosting or Neural Networks
+- **For explainable AI**: Use Decision Trees or Linear models
 
 ## 🧠 Key Concepts Explained
 
