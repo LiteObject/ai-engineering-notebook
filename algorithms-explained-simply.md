@@ -121,89 +121,78 @@ Think of AI algorithms as different types of "recipes" for teaching computers to
 
 - **When to use**: When accuracy is paramount and you have time to tune parameters carefully
 
----
-
 ## 👥 Clustering Algorithms
 *These find hidden groups in data*
 
 ### K-Means
-**What it's like**: Organizing a messy room by grouping similar items
+- **What it's like**: Organizing a messy room by grouping similar items
 
-**How it works**: Imagine you have a room full of scattered items and you want to organize them into 3 piles. K-means would repeatedly move items between piles until each item is in the pile with the most similar items, and the piles are as different from each other as possible.
+- **How it works**: Imagine you have a room full of scattered items and you want to organize them into 3 piles. K-means would repeatedly move items between piles until each item is in the pile with the most similar items, and the piles are as different from each other as possible.
 
-**Real-world example**: Customer segmentation, market research, organizing large databases
+- **Real-world example**: Customer segmentation, market research, organizing large databases
 
-**Pros**: Simple, fast, works well when groups are roughly circular
+- **Pros**: Simple, fast, works well when groups are roughly circular
 
-**Cons**: You have to specify how many groups you want upfront, struggles with weird-shaped groups
+- **Cons**: You have to specify how many groups you want upfront, struggles with weird-shaped groups
 
-**When to use**: When you want to find natural groups in your data and have an idea of how many groups to expect
-
----
+- **When to use**: When you want to find natural groups in your data and have an idea of how many groups to expect
 
 ### DBSCAN
-**What it's like**: Finding crowds of people in a park
+- **What it's like**: Finding crowds of people in a park
 
-**How it works**: Imagine you're looking at people scattered in a park from above. DBSCAN finds areas where people are clustered together (high density) and separates them from areas where people are spread out. It can find irregularly shaped crowds and automatically identifies people who are standing alone.
+- **How it works**: Imagine you're looking at people scattered in a park from above. DBSCAN finds areas where people are clustered together (high density) and separates them from areas where people are spread out. It can find irregularly shaped crowds and automatically identifies people who are standing alone.
 
-**Real-world example**: Fraud detection, image processing, identifying disease outbreaks
+- **Real-world example**: Fraud detection, image processing, identifying disease outbreaks
 
-**Pros**: Finds irregularly shaped groups, automatically determines number of groups, identifies outliers
+- **Pros**: Finds irregularly shaped groups, automatically determines number of groups, identifies outliers
 
-**Cons**: Sensitive to parameter settings, struggles when groups have very different densities
+- **Cons**: Sensitive to parameter settings, struggles when groups have very different densities
 
-**When to use**: When you don't know how many groups exist, expect irregular shapes, or want to identify outliers
-
----
+- **When to use**: When you don't know how many groups exist, expect irregular shapes, or want to identify outliers
 
 ## 🔤 Text Processing Algorithms
 
 ### TF-IDF (Term Frequency-Inverse Document Frequency)
-**What it's like**: Finding the most important words that make each document unique
+- **What it's like**: Finding the most important words that make each document unique
 
-**How it works**: Imagine you're reading newspaper articles and want to know what makes each article distinctive. TF-IDF looks at how often words appear in each article (term frequency) and how rare those words are across all articles (inverse document frequency). Words that appear often in one article but rarely in others get high importance scores.
+- **How it works**: Imagine you're reading newspaper articles and want to know what makes each article distinctive. TF-IDF looks at how often words appear in each article (term frequency) and how rare those words are across all articles (inverse document frequency). Words that appear often in one article but rarely in others get high importance scores.
 
-**Real-world example**: Search engines, document classification, content recommendation
+- **Real-world example**: Search engines, document classification, content recommendation
 
-**Pros**: Simple, interpretable, works well for many text tasks
+- **Pros**: Simple, interpretable, works well for many text tasks
 
-**Cons**: Doesn't understand word meaning or context
+- **Cons**: Doesn't understand word meaning or context
 
-**When to use**: When working with text data for search, classification, or finding key themes
-
----
+- **When to use**: When working with text data for search, classification, or finding key themes
 
 ### BERT (Bidirectional Encoder Representations from Transformers)
-**What it's like**: A person who has read millions of books and understands language context
+- **What it's like**: A person who has read millions of books and understands language context
 
-**How it works**: BERT is like having someone who has read the entire internet and learned how words relate to each other in context. When you give it a sentence like "The bank was steep," it knows whether you mean a financial institution or the side of a river based on the surrounding words.
+- **How it works**: BERT is like having someone who has read the entire internet and learned how words relate to each other in context. When you give it a sentence like "The bank was steep," it knows whether you mean a financial institution or the side of a river based on the surrounding words.
 
-**Real-world example**: Search engines, chatbots, language translation, sentiment analysis
+- **Real-world example**: Search engines, chatbots, language translation, sentiment analysis
 
-**Pros**: Understands context and nuance, state-of-the-art accuracy on many text tasks
+- **Pros**: Understands context and nuance, state-of-the-art accuracy on many text tasks
 
-**Cons**: Requires significant computational resources, more complex to implement
+- **Cons**: Requires significant computational resources, more complex to implement
 
-**When to use**: When working with natural language and context matters, have sufficient computational resources
-
----
+- **When to use**: When working with natural language and context matters, have sufficient computational resources
 
 ## 🖼️ Computer Vision Algorithms
 
 ### Convolutional Neural Networks (CNNs)
-**What it's like**: How humans recognize images by focusing on important features
+- **What it's like**: How humans recognize images by focusing on important features
 
-**How it works**: Just like you might recognize a cat by first noticing edges, then shapes like triangular ears and round eyes, then putting it all together, CNNs work in layers. Early layers detect simple features like edges and corners, middle layers detect shapes and patterns, and final layers combine everything to recognize objects.
+- **How it works**: Just like you might recognize a cat by first noticing edges, then shapes like triangular ears and round eyes, then putting it all together, CNNs work in layers. Early layers detect simple features like edges and corners, middle layers detect shapes and patterns, and final layers combine everything to recognize objects.
 
-**Real-world example**: Photo tagging, medical image analysis, self-driving cars, quality control
+- **Real-world example**: Photo tagging, medical image analysis, self-driving cars, quality control
 
-**Pros**: Excellent for image-related tasks, automatically learns relevant features
+- **Pros**: Excellent for image-related tasks, automatically learns relevant features
 
-**Cons**: Needs lots of training data, computationally intensive
+- **Cons**: Needs lots of training data, computationally intensive
 
-**When to use**: When working with images, have large datasets, and need high accuracy for visual recognition
+- **When to use**: When working with images, have large datasets, and need high accuracy for visual recognition
 
----
 
 ## 🔄 How to Choose the Right Algorithm
 
@@ -239,35 +228,25 @@ Think of AI algorithms as different types of "recipes" for teaching computers to
 **For maximum accuracy**: Try Gradient Boosting or Neural Networks
 **For explainable AI**: Use Decision Trees or Linear models
 
----
-
 ## 🧠 Key Concepts Explained
 
 ### Overfitting
-**What it is**: Like a student who memorizes answers instead of understanding concepts
-**Example**: An algorithm that perfectly predicts training data but fails on new data
-**How to avoid**: Use simpler models, more training data, or validation techniques
+- **What it is**: Like a student who memorizes answers instead of understanding concepts
+- **Example**: An algorithm that perfectly predicts training data but fails on new data
+- **How to avoid**: Use simpler models, more training data, or validation techniques
 
 ### Training vs. Testing Data
-**What it is**: Like studying with practice problems (training) then taking a real exam (testing)
-**Why it matters**: You need to test your AI on data it hasn't seen before to know how well it really works
+- **What it is**: Like studying with practice problems (training) then taking a real exam (testing)
+- **Why it matters**: You need to test your AI on data it hasn't seen before to know how well it really works
 
 ### Bias vs. Variance
-**Bias**: Like a archer whose arrows consistently miss the target in the same direction
-**Variance**: Like an archer whose arrows are scattered all around the target
-**Goal**: Find the sweet spot with low bias and low variance
+- **Bias**: Like a archer whose arrows consistently miss the target in the same direction
+- **Variance**: Like an archer whose arrows are scattered all around the target
+- **Goal**: Find the sweet spot with low bias and low variance
 
 ### Feature Engineering
-**What it is**: Choosing and preparing the right information to feed your algorithm
-**Example**: For house price prediction, you might create a "price per square foot" feature from existing price and size data
-
----
-
-## 📖 Further Reading
-
-- **For more technical details**: Refer to the main AI Engineering Notebook sections
-- **For hands-on practice**: Try the interactive notebook examples
-- **For specific implementations**: Check algorithm-specific documentation and tutorials
+- **What it is**: Choosing and preparing the right information to feed your algorithm
+- **Example**: For house price prediction, you might create a "price per square foot" feature from existing price and size data
 
 ---
 
