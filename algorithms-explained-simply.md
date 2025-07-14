@@ -125,6 +125,7 @@ Think of AI algorithms as different types of "recipes" for teaching computers to
 *These find hidden groups in data*
 
 ### K-Means
+
 - **What it's like**: Organizing a messy room by grouping similar items
 
 - **How it works**: Imagine you have a room full of scattered items and you want to organize them into 3 piles. K-means would repeatedly move items between piles until each item is in the pile with the most similar items, and the piles are as different from each other as possible.
